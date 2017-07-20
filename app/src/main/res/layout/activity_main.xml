@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00cc99"
+    tools:context="com.example.mithunburman.loginscreendemo.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:textColorHint="#8b8989"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="110dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textColorHint="#8b8989"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="56dp"
+        android:layout_marginTop="07dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:text="Login"
+        android:background="#f8f8ff"
+        android:textColor="#00ced1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="148dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="24dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Not a member? Sign up now."
+        android:textColor="#ffffff"
+        android:background="@color/green"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginRight="74dp"
+        android:layout_marginEnd="74dp" />
+
+
+</RelativeLayout>
